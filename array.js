@@ -27,3 +27,4 @@ console.log(animals[3].age)
 
 //para imprimir no console.log o que temos ali basta escrevermos:
 console.log(animals)
+//fim
