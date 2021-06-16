@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis e Tipos de Dados </title>
+</head>
+<body>
+    <script>
+        // declaration
+
+        var name
+
+        //atribuição de valores or assignment
+
+        name = "Douglas"
+
+        // Que tipo de dado foi colocado na variável?
+
+        console.log (typeof name)
+
+        // qual nome?
+
+        console.log (name)
+
+        // podemos declarar outras variaveis e também podemos
+        //agrupa-las, como:
+
+        let age = 24
+        let isHuman = true
+
+        // agrupando teremos:
+
+        let idade, eHumano
+
+        idade = 24
+        eHumano = true
+
+        //imprimindo no console.log mais de uma variável:
+
+        console.log (name, age, isHuman, idade, eHumano)
+
+        //escrita de texto + variáveis 
+        
+        // faremos assim?console.log ("O Douglas tem 24 anos de idade e é Humano?")
+        //Não! Veja como faremos:
+        console.log ("O " + name + " tem " + age + " anos e é Humano? " + isHuman)
+
+        // Escrita de texto com variáveis interpolando valores 
+        // com crase / templates literals / templates strings
+        console.log (`O ${name} tem ${age} anos e é Humano? ${isHuman}`)
+        //fim
+
+    </script>
+</body>
+</html>
