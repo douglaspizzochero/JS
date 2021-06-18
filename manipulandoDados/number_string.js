@@ -7,3 +7,5 @@ console.log(String(numero))
 //Acima transformamos número em string
 console.log(typeof texto)
 console.log(typeof numero)
+//Vale ressaltar que não irá alterar a variável, mas alterará
+//Na hora de imprimir
