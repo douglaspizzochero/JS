@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function primeiroEscopo(cidadeAtual) {
+        let cidade = cidadeAtual;
+        function segundoEscopo(estadoAtual) {
+        function terceiroEscopo(pais) {
+        console.log(`${cidade}, ${estadoAtual} - ${pais}`)
+        // Nova Iguaçu, RJ - Brasil
+        }
+        return terceiroEscopo
+        };
+        return segundoEscopo
+        };
+        primeiroEscopo('Nova Iguaçu')('RJ')('Brasil');
+        </script>
+</body>
+</html>
